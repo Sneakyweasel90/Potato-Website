@@ -12,6 +12,6 @@ export class StarRating {
   constructor() {}
 
   @Input() rating: any;
-  @Input() isReadOnly: Boolean = false;
+  @Input() isReadOnly = true;
 
 }
