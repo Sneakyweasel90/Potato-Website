@@ -1,0 +1,12 @@
+ <div class="rating">
+    <ng-template #t let-fill="fill">
+        <span class="heart-container">
+            <i class="bi bi-heart" style="color: #d3d3d3;"></i>
+            @if (fill > 0) {
+                <i class="bi bi-heart-fill filled" [style.width.%]="fill"></i>
+            }
+        </span>
+    </ng-template>
+
+    <ngb-rating [(rate)]="rating" [starTemplate]="t" [readonly]="false" [max]="5" />
+</div>

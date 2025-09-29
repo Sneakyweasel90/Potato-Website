@@ -1,0 +1,24 @@
+.rating {
+    margin-top: 5px;
+}
+
+.heart-container {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.heart-container i {
+    position: relative;
+    display: inline-block;
+}
+
+.heart-container .filled {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
